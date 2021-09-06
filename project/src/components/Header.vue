@@ -6,7 +6,7 @@
           </figure>
           <ul>
               <li :class="{selected:link.current}" v-for="(link,index) in links" :key="index">
-                  <a :href="link.url">{{link.text}}</a>
+                  <a :class="{selected2:link.current}" class="bold uppercase" :href="link.url">{{link.text}}</a>
               </li>
               
           </ul>
@@ -79,6 +79,11 @@ data(){
 </script>
 
 <style lang="scss" scoped>
+
+
+@import '@/assets/scss/_generics.scss';
+
+
 header{
     margin-top: 10px;
 }
@@ -90,23 +95,26 @@ header{
     
 }
 figure{
-    height: 100%;
+    height: 80%;
 }
  ul{
     display: flex;
+ 
      li {
     height: 80px;
     display: flex;
     align-items: center;
-     margin-right: 20px;
+    margin-right: 20px;
+    
     } 
     & li:hover{
-        border-bottom: 3px solid blue;
+        border-bottom: 5px solid $primary-color;
+        
     }
-    ul li a{
-     color: black;
+    li:hover a {
+        color: blue;
+    }
     
-    }
 }
 
 
