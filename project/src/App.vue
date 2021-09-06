@@ -4,6 +4,7 @@
    <Content/>
    <Buy/>
    <Footer/>
+   <Sign/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from '@/components/Header.vue';
 import Content from '@/components/Content.vue';
 import Buy from '@/components/Buy-Section.vue';
 import Footer from '@/components/Footer.vue';
+import Sign from '@/components/Sign-in.vue';
 
 export default {
   name: 'App',
@@ -21,6 +23,7 @@ export default {
    Content,
    Buy,
    Footer,
+   Sign,
   }
 }
 </script>
