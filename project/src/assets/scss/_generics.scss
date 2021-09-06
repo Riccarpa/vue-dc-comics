@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+  
+ .container{
+    margin: 0 auto;
+    max-width: 1200px;
+  
+  }
+
+ul{
+    list-style-type: none;
+    li a {
+        text-decoration: none;
+    }
+}
+img{
+    width: auto;
+    height: 100%;
+}
+.selected{
+    border-bottom: 3px solid blue;
+}
+.pointer{
+    cursor: pointer;
+}
