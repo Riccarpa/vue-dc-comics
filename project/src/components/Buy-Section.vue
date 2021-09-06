@@ -37,7 +37,7 @@ export default {
 
 section {
   background-color: $primary-color;
-  height: 160px;
+  height: 150px;
 }
 .container {
   display: flex;

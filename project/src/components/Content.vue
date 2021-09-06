@@ -15,7 +15,7 @@ name:'Content'
 <style lang="scss" scoped>
 section{
     background-color: black;
-    height: 150px;
+    height: 130px;
     color: white;
     
     div.container{

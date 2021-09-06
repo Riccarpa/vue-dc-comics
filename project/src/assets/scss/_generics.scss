@@ -22,10 +22,12 @@ ul{
         color: black;
     }
 }
+
 img{
     width: auto;
     height: 100%;
 }
+
 .selected{
     border-bottom: 5px solid $primary-color;
     
@@ -33,9 +35,11 @@ img{
 .selected2{
     color: $primary-color;
 }
+
 .pointer{
     cursor: pointer;
 }
+
 .bold{
     font-weight: bold;
 }

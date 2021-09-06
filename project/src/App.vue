@@ -3,6 +3,7 @@
    <Header/>
    <Content/>
    <Buy/>
+   <Footer/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Header from '@/components/Header.vue';
 import Content from '@/components/Content.vue';
 import Buy from '@/components/Buy-Section.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
@@ -18,11 +20,15 @@ export default {
    Header,
    Content,
    Buy,
+   Footer,
   }
 }
 </script>
 
 <style lang="scss">
   @import '@/assets/scss/_generics.scss';
+  #app{
+    height: 100vh;
+  }
 
 </style>

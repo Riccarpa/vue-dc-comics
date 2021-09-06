@@ -84,9 +84,7 @@ data(){
 @import '@/assets/scss/_generics.scss';
 
 
-header{
-    margin-top: 10px;
-}
+
 .container{
     display: flex;
     justify-content: space-between;
