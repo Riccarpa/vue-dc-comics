@@ -5,7 +5,7 @@
               <img class="pointer" src="@/assets/img/dc-logo.png" alt="">
           </figure>
           <ul>
-              <li :class="{selected:link.current}" v-for="(link,index) in links" :key="index">
+              <li class="pointer" :class="{selected:link.current}" v-for="(link,index) in links" :key="index">
                   <a :class="{selected2:link.current}" class="bold uppercase" :href="link.url">{{link.text}}</a>
               </li>
               
@@ -83,23 +83,25 @@ data(){
 
 @import '@/assets/scss/_generics.scss';
 
-
+header{
+    height: 10%;
+}
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    
+    height: 100%;
 }
 figure{
     height: 80%;
 }
  ul{
     display: flex;
+    height: 100%;
  
      li {
-    height: 80px;
+    height: 100%;
     display: flex;
     align-items: center;
     margin-right: 20px;

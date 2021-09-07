@@ -30,7 +30,7 @@ export default {
 
     section{
         background-color: #303030;
-         height: calc(100% - 620px);
+         height: 10%;
     }
     .container{
         height: 100%;

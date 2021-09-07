@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss" scoped>
     footer{
-        height: 260px;
+        height: 40%;
         background-image: url('../assets/img/footer-bg.jpg');
         display: flex;
         align-items: center;
