@@ -1,23 +1,5 @@
-<template>
-  <section>
-      <div class="container">
-         <ContentCard v-for="(book,index) in books" :key="index" :book="book"/>
-         
-      </div>
-  </section>
-</template>
-
-<script>
-import ContentCard from '@/components/Content-card.vue';
-export default {
-name:'Content',
-components:{
-    ContentCard,
-},
-data(){
-    return{
-        books:[
-             {
+[
+  {
     thumb:
       'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX',
     price: '$19.99',
@@ -100,32 +82,5 @@ data(){
     price: '$16.99',
     series: 'Catwoman',
     type: 'graphic novel',
-  }
-
-        ]
-    }
-}
-}
-</script>
-
-<style lang="scss" scoped>
-section{
-    background-color: black;
-    padding: 2rem 0;
-    color: white;
-   
-    div.container{
-        height: 100%;
-        display: flex;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-}
-h1{
-    color: white;
-}
-
-</style>
+  },
+];

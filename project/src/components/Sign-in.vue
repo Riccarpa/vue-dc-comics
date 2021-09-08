@@ -30,7 +30,7 @@ export default {
 
     section{
         background-color: #303030;
-         height: 10%;
+         height: 100px;
     }
     .container{
         height: 100%;
